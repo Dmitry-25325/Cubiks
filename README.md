@@ -1,4 +1,4 @@
-![logo](https://cdn.discordapp.com/attachments/912254295666221077/1056958034502492270/logo.png)
+# Internet Shop
 
 ### What is Internet Shop?
 ***
