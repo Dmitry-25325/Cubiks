@@ -19,11 +19,11 @@
               {% endif %}
             {% endif %}
             {% endfor %}
-            {% if page_obj.number|add:1 <= paginator.num_pages %}  
+            {% if page_obj.number|add:1 <= paginator.num_pages %}
             <a href="?page={{ page_obj.number|add:1 }}" aria-label="Next">
               <span aria-hidden="true">&raquo;</span>
             {% endif %}
-            </a>  
+            </a>
           </nav>
-        </div> 
+        </div>
         {% endif %}

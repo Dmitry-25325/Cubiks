@@ -27,7 +27,7 @@
                             <form method="post" action="{% url 'webshop:buy_product' %}" class="cart">
                                 {% csrf_token %}
                                 <div class="product-inner-price">
-                                    <ins>{{ product.product_price }} ₽</ins>
+                                    <ins>{{ product.product_price }} ₴</ins>
                                 </div>
                                 <div class="quantity">
                                     <input type="number" size="4" class="input-text qty text" title="Qty" value="1" max="999" name="quantity" min="1" step="1">
@@ -125,7 +125,7 @@
                             </div>
                             <h2>{{ prod.product_name }}</h2>
                             <div class="product-carousel-price">
-                                <ins>{{ prod.product_price }} ₽</ins>
+                                <ins>{{ prod.product_price }} ₴</ins>
                             </div> 
                         </a>
                         {% endfor %}                                    

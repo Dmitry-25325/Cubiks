@@ -10,7 +10,7 @@
     <div class="purchased-item">
         <img class="item-image" src="{{ item.product_image.url }}">
         <span class="item-text"><b>Successfully!</b> <br>You bought {{ quantity }} {% if quantity == '1' %} piece {% else %} pieces {% endif %}
-             of {{ item.product_name }} for {% widthratio item.product_price 1 quantity %} ₽.</span>
+             of {{ item.product_name }} for {% widthratio item.product_price 1 quantity %} ₴.</span>
         <span class='main-button'><a href="{% url 'webshop:main_page' %}">Go to main page</a></span>
     </div>
 </div>

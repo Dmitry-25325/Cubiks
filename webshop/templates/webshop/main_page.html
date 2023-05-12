@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 {% extends 'webshop/base.html' %}
-<!--
-	ustora by freshdesignweb.com
-	Twitter: https://twitter.com/freshdesignweb
-	URL: https://www.freshdesignweb.com/ustora/
--->
 <html lang="en">
   <head>
     {% load static %}
@@ -16,36 +11,36 @@
 			<div class="block-slider block-slider4">
 				<ul class="" id="bxslider-home4">
 					<li>
-						<img src="{% static 'webshop/img/laptops.png' %}" alt="Slide">
+						<img src="{% static 'webshop/img/rb.png' %}" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-								Get a new laptop!
+								We have many different puzzles!
 							</h2>
-							<a class="caption button-radius" href="{% url 'webshop:category_page' 'laptops' %}"><span class="icon"></span>Shop now</a>
+
 						</div>
 					</li>
-					<li><img src="{% static 'webshop/img/chairs.png' %}" alt="Slide">
+					<li><img src="{% static 'webshop/img/meg.png' %}" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-								Boost your gaming perfomance with a new chair!
+								Improve your abilities!
 							</h2>
-							<a class="caption button-radius" href="{% url 'webshop:category_page' 'chairs' %}"><span class="icon"></span>Shop now</a>
+
 						</div>
 					</li>
-					<li><img src="{% static 'webshop/img/iphone.png' %}" alt="Slide">
+					<li><img src="{% static 'webshop/img/scube.png' %}" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-                                Get new iphone 12.
+                               Develop your skills!
 							</h2>
-							<a class="caption button-radius" href="{% url 'webshop:product_page' 'smartphones' 'iphone-12' %}"><span class="icon"></span>Shop now</a>
+
 						</div>
 					</li>
-					<li><img src="{% static 'webshop/img/github.png' %}" alt="Slide">
+					<li><img src="{% static 'webshop/img/Mirror.png' %}" alt="Slide">
 						<div class="caption-group">
 						    <h2 class="caption title">
-								Visit my github.
+								Expand your collection!
 						    </h2>
-							<a class="caption button-radius" href="https://github.com/Murl1k"><span class="icon"></span>Click here</a>
+
 						</div>
 					</li>
 				</ul>
@@ -100,7 +95,7 @@
                                 <div class="latest-product-bottom">
                                     <h2>{{ prod.product_name }}</h2>
                                     <div class="product-carousel-price">
-                                        <ins>{{ prod.product_price }} ₽</ins>
+                                        <ins>{{ prod.product_price }} ₴</ins>
                                     </div> 
                                 </div>
                             </a>

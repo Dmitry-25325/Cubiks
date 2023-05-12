@@ -23,7 +23,7 @@ class MainPage(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['latest_products'] = self.model.objects.order_by('-id')[:5]
+        context['latest_products'] = self.model.objects.order_by('-id')[:10]
 
         return context
 
